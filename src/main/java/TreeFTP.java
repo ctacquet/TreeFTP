@@ -293,7 +293,9 @@ public class TreeFTP {
      * @throws IOException Explication de la mauvaise réponse
      */
     public static void main(String[] args) throws IOException {
-        String address = "ftp.ubuntu.com";
+        String address;
+        if(args.length > 1) address = args[1];
+        else address = "ftp.ubuntu.com";
         TreeFTP treeFTP = new TreeFTP();
         treeFTP.connect(address);
         String dossierDeCommencement = "/maas-images/ephemeral";
