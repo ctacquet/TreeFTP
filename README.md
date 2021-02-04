@@ -16,6 +16,13 @@ Pour tester l'application on fait :
 
 > java -jar TreeFtp.jar ftp.ubuntu.com
 
+(On peut utiliser n'importe quelle adresse IP FTP dans le main mais pour éviter d'attendre trop longtemps avec tous les appels récursifs j'ai fait en sorte que l'on se connecte à un dossier particulier de ftp.ubuntu.com. Actuellement le dossier de commencement est /maas-images/ephemeral)
+
+
+## Vidéo de présentation de l'application
+
+[![Vidéo youtube](https://1.bp.blogspot.com/-OziQiugEGd0/XVun1YB0p9I/AAAAAAAAzPA/yb-qiHeDyn8Y9HZd3xUNJK8JGAn9pVR1wCLcBGAs/w680/chrome-supprime-ftp-1.jpg)](https://youtu.be/fDvNUvcRGqg)
+
 
 ## Architecture
 
